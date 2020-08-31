@@ -269,6 +269,7 @@ h3{
   word-wrap: break-word;
 }
 
+.line-height-tall { line-height: 1.5 }
 
 .subsection-name{
   font-size: 14px;
@@ -278,8 +279,8 @@ h3{
   font-size: 18px;
   font-weight: 400;
 }
-
-.magenta{ color:magenta }
+.servicenow-color{ color: #75ae75 }
+.magenta{ color:#ff0066 }
 .company{
   font-weight: 500 !important;
   font-size: 18px;
