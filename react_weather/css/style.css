@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,300i,400,400i,500,600,700,800,900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+h1{
+    font-weight: 500;
+    color: rgb(100, 190, 247);
+}
+
+/*****************************
+
+            MAIN
+            
+******************************/
+.main-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.weather-container{
+    margin: auto;
+    padding-top: 50px;
+    width: 76%;
+}
+hr{
+    border: solid 0.5px grey;
+    padding-bottom: 10px;
+}
+#weather-result{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    width: 400px;
+    background-color: rgb(223, 237, 248);
+}
+#weather-temp{
+    font-size: 30px;
+}
+#weather-description{
+    padding-left: 10px;
+    color: grey;
+}
+
+/*****************************
+
+            Search Box
+            
+******************************/
+form input{
+    border-radius: 5px;
+    border-style: solid;
+    border: 1px solid grey;
+    padding-left: 10px;
+    font-size: 14px;
+    height: 33px;
+}
+form button{
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    /*background-color: lightseagreen;*/
+    background-color: rgb(76, 146, 202);
+    color: white;
+    cursor: pointer;
+}
+
+#invalid-location{
+    width: 260px;
+    color: #D8000C;
+    background-color: #FFBABA;
+    border-radius: 10px;
+    padding: 35px 0px 35px 15px;
+}
+button{
+    border-radius: 5px;
+    padding: 6px 13px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/*****************************
+
+            LIST
+
+******************************/
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+li {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.query-name {
+    float: left;
+}
+
+.remove-query {
+    float: right;
+}
+
+.hidden {
+    display: none;
+}
+
+/*****************************
+
+            MOBILE
+
+******************************/
+@media (max-width: 768px) {
+
+    .main-panel{
+        flex-direction: column;
+    }
+
+    .right-panel{
+        padding: 40px 0px;
+    }
+
+}

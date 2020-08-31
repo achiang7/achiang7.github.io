@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I'm Anthony Chiang</title>
+
+    <link rel="shortcut icon" href="icons/logo.png" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" type="text/css" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ------------------------------
+                  HOME
+    --------------------------------- -->
+
+      <a name="section0" id="panel0"></a>
+      <div class="home-bckgrd"></div>
+
+      <div class="topnav">
+        <a href="#section1" class="link">overview</a>
+        <a href="#section2" class="link">projects</a>
+        <a href="#section3" class="link">gallery</a>
+        <a href="#section4" class="link">connect</a>
+      </div>
+
+      <div class="intro">
+        <center id="pre">Hi, I'm </center>
+        <center id="my-name">Anthony Chiang</center>
+        <div id="container">
+          <!-- <i class="fa fa-angle-right fa-xs" style="color: #292c2f;"></i> -->
+          <div id="text"></div><div id="cursor"></div>
+        </div>
+      </div>
+
+      <div class="arrow bounce">
+        <i class="fa fa-angle-down fa-3x"></i>
+      </div>
+
+      <div class="navigator">
+        <div id="uparrow"></div>
+        <div id="downarrow"></div>
+      </div>
+
+    <!-- ------------------------------
+                  OVERVIEW
+    --------------------------------- -->
+    <a name="section1" id="panel1"></a>
+    <section id="overview">
+
+      <h1> OVERVIEW </h1><br>
+
+      <div class="all-overviews">
+        <div class="overview-subsection">
+          <h2> about </h2>
+          <div class="overview-content">
+            <p> 
+              I'm a third-year Informatics student at the University of Washington, Seattle.
+              I'm passionate about designing and building scalable applications that
+              provide convenience and functional purpose for students, developers, and the general public. 
+              My passion is driven by the power of programming — 
+              countless simple yet innovative applications can be built through code to serve convenience and efficiency for humans.
+              I believe these little details can add up to significantly improve the quality of life. 
+              <br> <br> 
+              Today, I implement scalable data architectures to centralize information, knowledge, and processes
+              for T-Mobile. Going forward, I hope to grow as a full stack developer and leverage technology to build impactful applications. 
+            </p><br>
+            <hr>
+          </div>
+        </div>
+
+        <div class="overview-subsection">
+          <h2> education </h2>
+          <div class="overview-content">
+            <p> 
+              <span class="education-subsection">
+                <span class="subsection-school">University of Washington, Seattle<br></span>
+              </span>
+              
+              <span class="education-subsection">
+                <span class="subsection-name">Major:</span> 
+                <span class="subsection-content">Informatics - Software Development Custom Track<br></span>
+              </span>
+              
+              <span class="education-subsection">
+                <span class="subsection-name">Graduation:</span>
+                <span class="subsection-content"> December 2020 <br></span>
+              </span>        
+
+            </p><br>
+            <hr>
+          </div>
+        </div>
+
+        <div class="overview-subsection">
+          <h2> experience </h2>
+          <div class="overview-content">
+            <p> 
+              <span class="experience">
+                <span class="company magenta">T-Mobile</span>
+                <span class="role-title">
+                  | Software Engineer Intern<br><span style="font-size: 15px">October 2019 - Present </span>
+                </span><br>
+                At T-Mobile, I build and deploy full stack applications from the ground up. 
+                <br><br>
+
+                <span class="experience-500">Project RAMII</span> | <span class="skills">GraphQL, TypeScript, NestJS, Angular</span><br>
+                <ul>
+                  <li>I'm building a unifying authorization portal for all company applications. </li>
+                  <li>Company applications can call the API to validate whether a user
+                      has a specific authorization level, and if not they can request access which 
+                      then triggers a notification to the application adminstrator via Slack.</li>
+                  <li>The API uses GraphQL to stitch user's metadata with their unique slack ID 
+                      and provide only exactly what the client asks for on API calls.</li>
+                </ul>
+                
+
+                <span class="experience-500">Project Incubator</span> | <span class="skills">JavaScript, REACT, Angular, PostgreSQL</span><br>
+                <ul>
+                  <li>
+                    Incubator is a  web application that functions much like excel - it allows users
+                    to maintain .csv files in a shared space where teammates can make updates at real time.</li>
+                  <li>
+                    Data is then published to Azure data warehourse where it 
+                    can be accessed for reporting and analytic purposes.
+                  </li>
+                  <li>
+                    The application is intended to "incubate" their business process before 
+                    a custom solution is needed. 
+                  </li>
+                </ul>
+              </span>
+          
+              <br>
+              <a href="resume.pdf" id="resume-button" target="_blank"> Download Resume </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------
+                  PROJECT
+    --------------------------------- -->
+    <a name="section2" id="panel2"></a>
+    <section id="project">
+      <div class="project-subsection">
+        <h1> PROJECTS </h1>
+
+        <div class="projects">
+          <div>
+            <a href="set/set.html" target="_blank">
+              <div class="set"></div>
+            </a><br>
+            <span class="game_name">Set</span>
+          </div>
+          <div>
+            <a href="react_weather/index.html" target="_blank">
+              <div class="react_weather"></div>
+            </a><br>
+            <span class="game_name">React Weather</span>
+          </div>
+          <div>
+            <a href="pokedex/pokedex.html" target="_blank">
+              <div class="pokedex"></div>
+            </a><br>
+            <span class="game_name">Pokedex</span>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- ------------------------------
+                  GALLERY
+    --------------------------------- -->
+    <a name="section3" id="panel3"></a>
+    <section id="gallery">
+      <h1> GALLERY </h1>
+      <div class="scene">
+          <div class="carousel">
+            <div class="carousel__cell"></div>
+            <div class="carousel__cell"></div>
+            <div class="carousel__cell"></div>
+            <div class="carousel__cell"></div>
+            <div class="carousel__cell"></div>
+            <div class="carousel__cell"></div>
+            <div class="carousel__cell"></div>
+            <div class="carousel__cell"></div>
+            <div class="carousel__cell"></div>
+            <div class="carousel__cell"></div>
+            <div class="carousel__cell">11</div>
+            <div class="carousel__cell">12</div>
+            <div class="carousel__cell">13</div>
+            <div class="carousel__cell">14</div>
+            <div class="carousel__cell">15</div>
+          </div>
+        </div>
+        
+        <div class="carousel-options">
+          <p>
+            <label>
+              Slide Me
+              <input class="cells-range" type="range" min="3" max="15" value="9" />
+            </label>
+          </p>
+          <p>
+            <button class="previous-button">Prev</button>
+            <button class="next-button">Next</button>
+          </p>
+          
+          <p class="hidden"> 
+            Orientation:
+            <label>
+              <input type="radio" name="orientation" value="horizontal" checked />
+              horizontal
+            </label>
+            <label>
+              <input type="radio" name="orientation" value="vertical" />
+              vertical
+            </label>
+          </p>
+          
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- The Close Button -->
+          <span class="close">&times;</span>
+
+          <!-- The left Button -->
+          <span class="prevImg">
+            <i class="fa fa-angle-left fa-2x"></i>
+          </span>
+
+          <!-- The right Button -->
+          <span class="nextImg">
+            <i class="fa fa-angle-right fa-2x"></i>
+          </span>
+
+
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img01">
+
+          <!-- Modal Caption (Image Text) -->
+          <div id="caption"></div>
+
+        </div>
+    </section>
+
+    <!-- ------------------------------
+                  CONTACT
+    --------------------------------- -->
+    <a name="section4" id="panel4">
+    <section class="contact">
+      
+    </section>
+
+    <!-- ------------------------------
+                  FOOTER
+    --------------------------------- -->
+    <footer>
+      <a name="section4" id="panel4"></a>
+      <div class="footer-container">
+        <span> connect with me </span>
+        <div class="icons">
+          <a href="https://linkedin.com/in/anthonychiang/" id="icon1" target="_blank">
+            <i class="fa fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://www.facebook.com/tjoyhohoant" id="icon2" target="_blank">
+            <i class="fa fa-facebook-f fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com/birdkawkaw/" id="icon3" target="_blank">
+            <i class="fa fa-instagram fa-2x"></i>
+          </a>
+          <a href="https://github.com/anthonychiang7" id="icon5" target="_blank">
+            <i class="fa fa-github-alt fa-2x"></i>
+          </a>
+          <a href="mailto: anthonychiang7@gmail.com" id="icon4" target="_blank">
+            <i class="fa fa-envelope fa-2x"></i>
+          </a>
+        </div> 
+        <div class="footer-nav">
+          <a href="#section0" class="link">HOME</a>
+          <a href="#section1" class="link">OVERVIEW</a>
+          <a href="#section2" class="link">PROJECTS</a>
+          <a href="#section3" class="link">GALLERY</a>
+        </div>
+        <div class="copyright">
+          &copy;2020 Anthony Chiang. Last updated Aug 31th 2020.
+        </div>  
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+
+</html>
